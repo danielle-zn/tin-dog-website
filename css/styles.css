@@ -2,10 +2,6 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-#title {
-  background-color: #ff4c68;
-}
-
 h1 {
   font-family: "Montserrat", sans-serif;
   color: black;
@@ -13,6 +9,15 @@ h1 {
   font-weight: 900;
   line-height: 1.5;
   color: #fff;
+}
+
+#features {
+  text-align: center;
+  margin: 10% 10%;
+}
+
+#title {
+  background-color: #ff4c68;
 }
 
 .container-fluid {
@@ -48,4 +53,25 @@ h1 {
 .title-image {
   width: 60%;
   transform: rotate(25deg);
+}
+
+/*  Features setion */
+
+.features-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-top: 2%;
+}
+
+.features-paragraph {
+  color: #8f8f8f;
+  margin-bottom: 10%;
+}
+.features-icon {
+  color: #ef8172;
+  font-size: 4rem;
+}
+
+.features-icon:hover {
+  color: #ff4c68;
 }
